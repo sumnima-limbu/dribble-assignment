@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.top-header span {
+  font-size: 12px;
+  font-weight: 300;
+}
+.top-header-left,
+.top-header-right {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-wrapper {
+  margin-right: 10px;
+  border-left: 2px solid #e7e9ec;
+}
+.icon-wrapper i {
+  margin-left: 12px;
+}
+.icon-wrapper span {
+  margin: 0 10px;
+}
+.top-header-right .icon-wrapper:nth-child(2) {
+  border: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid #f5f5f5;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.navbar-left h2 {
+  margin-right: 12px;
+}
+.navbar-left span sub {
+  color: #e33825;
+  font-size: 14px;
+}
+.navbar-center nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar-center nav li {
+  margin: 0 16px;
+}
+.navbar-center nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 16px;
+}
+.navbar-right {
+  position: relative;
+}
+.navbar-right i {
+  color: #a2a2a2;
+  position: absolute;
+  top: 16px;
+  left: 12px;
+}
+.navbar-right input {
+  outline: none;
+  border: 1px solid #e3e5e8;
+  padding: 16px 16px 16px 32px;
+}
+.information {
+  background-color: #262626;
+  padding: 16px;
+}
+.information p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  color: #909090;
+}
+
+.bg-wrapper {
+  padding: 60px;
+}
+.background {
+  background-image: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  height: 280px;
+  padding: 60px;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  color: #0e0d0d;
+}
+.background .sale {
+  font-weight: 300;
+  font-size: 12px;
+}
+.background .title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+}
+.background .info {
+  font-size: 14px;
+}
+.shopping-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  margin-top: 30px;
+}
+.shopping-wrapper button {
+  color: #0e0d0d;
+  outline: none;
+  padding: 8px 22px;
+  text-transform: uppercase;
+  font-size: 10px;
+  background-color: transparent;
+  border: 1px solid #0e0d0d;
+}
+
+.mastercard-wrapper {
+  display: flex;
+  padding: 30px 60px 60px 60px;
+}
+.mastercard {
+  flex: 0.4;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 210px;
+}
+.mastercard-header {
+  font-size: 20px;
+}
+.mastercard-header span {
+  font-size: 12px;
+  color: #e33825;
+}
+.mastercard-body .number {
+  font-size: 30px;
+}
+.mastercard-body span {
+  margin: 0 10px;
+}
+.mastercard-body span:nth-child(1) {
+  margin-left: 0;
+}
+.mastercard-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.mastercard-info {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.7;
+}
+.mastercard-details h4 {
+  color: #44464a;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 30px;
+}
+.mastercard-details p {
+  color: #000;
+}
+.mastercard-logo {
+  display: flex;
+}
+.mastercard-circle {
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+.first {
+  margin-right: -20px;
+  background-color: rgba(236, 23, 23, 0.796);
+}
+.second {
+  background-color: rgba(239, 159, 0, 0.753);
+}
+.mastercard-egift,
+.mastercard-shopping {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+}
+.mastercard-egift h3,
+.mastercard-shopping h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.mastercard-egift p,
+.mastercard-shopping p {
+  margin: 12px 0 40px 0;
+  font-size: 14px;
+}
+.mastercard-egift h5,
+.mastercard-shopping h5 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.products-wrapper,
+.featured-products-wrapper {
+  padding: 20px 36px;
+}
+.products-intro,
+.featured-products-intro {
+  border-top: 1px solid #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 34px 20px;
+}
+.products-intro h2,
+.featured-products-intro h2 {
+  font-weight: 500;
+}
+.products-intro h5,
+.featured-products-intro h5 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+}
+.products-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 18px;
+  /* flex-wrap: wrap; */
+}
+.products-wrapper img {
+  height: 140px;
+  width: 140px;
+  padding: 0 16px 26px 16px;
+}
+.products-wrapper p {
+  font-size: 14px;
+  font-weight: 500;
+  border-top: 1px solid #f2f2f2;
+  padding: 12px 0;
+}
+.product {
+  width: 100%;
+  padding: 10px;
+}
+.featured-products {
+  display: flex;
+  padding: 0 22px;
+  height: 390px;
+}
+.featured-product {
+  display: flex;
+}
+.featured-product-left {
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 0.4;
+}
+.product-desc {
+  padding: 0 22px;
+  margin-top: -30px;
+}
+.product-desc .top-title {
+  font-size: 12px;
+  color: #8c898a;
+  line-height: 24px;
+  letter-spacing: 1.4px;
+  font-weight: 500;
+}
+.product-desc p {
+  color: #acaaab;
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.product-desc .product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product-header h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.bookmark-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 18px 0 0 34px;
+}
+.bookmark-wrapper i {
+  color: #c1c3c3;
+}
+.featured-product-left img {
+  height: 260px;
+  width: 240px;
+}
+.featured-product-right {
+  background-image: url("https://i.cbc.ca/1.4153442.1545359800!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/smart-speakers-from-amazon-google-apple-harman-kardon.jpg");
+  flex: 0.6;
+  margin-left: 20px;
+}
+.featured-content-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.featured-button-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  outline: none;
+}
+.featured-product-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.featured-product-info p {
+  color: #ffffff;
+}
+
+.featured-button-wrapper button {
+  padding: 10px 30px;
+  margin: 20px 20px 0 0;
+  outline: none;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ea4751;
+  border: 1px solid #ea4751;
+  letter-spacing: 1px;
+}
+.preview-products {
+  display: flex;
+  padding: 10px 60px;
+}
+
+.preview-product-left,
+.preview-product-right {
+  flex: 0.5;
+  display: flex;
+  height: 382px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.preview-product-left {
+  background-image: url("https://cdn.shopify.com/s/files/1/0571/5171/7428/products/6_800x.jpg?v=1666610082");
+  background-position: right;
+}
+.preview-product-right {
+  background-image: url("https://domf5oio6qrcr.cloudfront.net/medialibrary/10244/GettyImages-1165258037.jpg");
+  background-position: right;
+  margin-left: 24px;
+}
+.preview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.preview-content .top-title {
+  font-size: 12px;
+  letter-spacing: 1.6px;
+}
+.preview-content .title {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+.preview-content .info {
+  font-size: 12px;
+}
+
+.products-tab {
+  display: flex;
+  padding: 10px 60px;
+  justify-content: space-between;
+}
+
+.product-tab-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #fbfbfb;
+  margin-right: 20px;
+  padding: 20px;
+}
+.product-tab-wrapper:nth-child(3) {
+  margin-right: 0;
+}
+.product-tab-wrapper .bookmark-wrapper {
+  margin: 0;
+}
+.product-tab-wrapper img {
+  height: 170px;
+  width: 180px;
+}
+.product-tab-wrapper .product-title {
+  color: #2c2e32;
+  font-size: 14px;
+  font-weight: 500;
+}
+.product-tab-wrapper .product-subtitle {
+  color: #8f8c8d;
+  font-size: 12px;
+  letter-spacing: 1.6px;
+  line-height: 32px;
+}
+.product-tab-wrapper .product-info {
+  color: #969394;
+  font-size: 10px;
+  line-height: 1.4;
+}
+.button-wrapper {
+  display: flex;
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.button-wrapper button {
+  padding: 12px 22px;
+  font-size: 10px;
+  letter-spacing: 1.6px;
+  outline: none;
+}
+.button-wrapper .button-right {
+  margin-left: 20px;
+}
+.button-left button {
+  background-color: #ffff;
+  border: 1px solid #ededed;
+  color: #3b3e41;
+}
+.button-right button {
+  background-color: #ea4751;
+  border: 1px solid #ea4751;
+  color: #fff;
+}
+.signup-wrapper {
+  display: flex;
+  margin: 0 60px;
+  border: 1px solid #ebebeb;
+}
+.signup-content {
+  flex: 0.4;
+  padding: 32px 56px;
+}
+.signup-header {
+  margin: 20px 0;
+}
+.signup-header h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.signup-inputs {
+  display: flex;
+  align-items: center;
+}
+.signup-inputs input,
+.signup-inputs button {
+  height: 38px;
+  outline: none;
+  border: 1px solid #ebebeb;
+}
+.signup-inputs input {
+  flex: 0.4;
+  margin-right: 10px;
+  padding: 0 30px 0 20px;
+}
+
+.signup-inputs button {
+  letter-spacing: 1.6px;
+  text-decoration: underline;
+  font-size: 8px;
+  line-height: 1.4px;
+  font-weight: 600;
+  padding: 0 32px;
+  background: transparent;
+}
+.signup-background {
+  background-image: url("https://images.unsplash.com/photo-1601541984851-6779505c272c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  height: 200px;
+  flex: 0.6;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 30px;
+}
