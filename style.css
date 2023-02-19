@@ -445,7 +445,7 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
-.product-tab-wrapper .product-subtitle {
+.product-subtitle {
   color: #8f8c8d;
   font-size: 12px;
   letter-spacing: 1.6px;
@@ -523,10 +523,63 @@ body {
   background: transparent;
 }
 .signup-background {
-  background-image: url("https://images.unsplash.com/photo-1601541984851-6779505c272c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-image: url("https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
   height: 200px;
   flex: 0.6;
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 30px;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+.top-footer-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: space-between;
+}
+.top-footer-links ul a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.top-footer-content p {
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  padding: 0 60px;
+  flex-direction: column;
+  background-color: #262626;
+  color: #fff;
+}
+.footer-second {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-inner-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-header {
+  margin: 24px 0;
+}
+.footer-inner-links ul {
+  list-style-type: none;
+}
+
+.footer-inner-links ul li {
+  padding: 4px 0;
+}
+.footer-inner-links ul a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 14px;
 }
