@@ -607,8 +607,7 @@ body {
 .footer-inner-links ul li {
   padding: 4px 0;
 }
-.footer-inner-links ul a,
-.footer-copyright .copyright-content {
+.footer-inner-links ul a {
   text-decoration: none;
   color: #808080;
   font-size: 14px;
@@ -645,7 +644,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-}
-.footer-copyright hr {
+  font-size: 12px;
   color: #808080;
 }
